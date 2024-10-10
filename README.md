@@ -50,26 +50,6 @@
 
 <br><br><br>
 
-# ⭐️ 네바오 강사님의 백만불짜리 피드백
-**UX시나리오 개선사항**
-- 장바구니 탭에 badge로 숫자 보이기
-- 무통장 입금은 쇼핑몰 법인의 계좌를 알려주고 끝내야한다
-
-**applestore-clone-admin**
-- 파일들 폴더 정리는 해줍시다
-- protocol ItemStoreType 같은 처리는 매우 바람직함
-- CustomView의 주석화된 코드는 과감히 지웁시다. git 기록에서 다시 꺼낼 수 있어요.
-
-**applestore-clone-consumer**
-- 여기도 폴더 정리좀 합시다
-- Functions.swift 파일이름은 위험. ViewBuilders 같은 거로 합시다
-- ProductCategoryView 처럼 길어지는 내용은 서브뷰 처리할 수 있을까 고민해봅시다
-
-**applestore-clone-models**
-- struct, class마다 잘게 파일들을 나눠주세요
-
-<br><br>
-
 # Firebase 🔥
 - Authentication
 - Firestore Database
@@ -154,6 +134,26 @@
 ┃ ┣ 📜 price
 ┃ ┣ 📜 stockQuantity
 ```
+
+# ⭐️ 네바오 강사님의 백만불짜리 피드백
+**UX시나리오 개선사항**
+- 장바구니 탭에 badge로 숫자 보이기
+- 무통장 입금은 쇼핑몰 법인의 계좌를 알려주고 끝내야한다
+
+**applestore-clone-admin**
+- 파일들 폴더 정리는 해줍시다
+- protocol ItemStoreType 같은 처리는 매우 바람직함
+- CustomView의 주석화된 코드는 과감히 지웁시다. git 기록에서 다시 꺼낼 수 있어요.
+
+**applestore-clone-consumer**
+- 여기도 폴더 정리좀 합시다
+- Functions.swift 파일이름은 위험. ViewBuilders 같은 거로 합시다
+- ProductCategoryView 처럼 길어지는 내용은 서브뷰 처리할 수 있을까 고민해봅시다
+
+**applestore-clone-models**
+- struct, class마다 잘게 파일들을 나눠주세요
+
+<br><br>
 
 # ⚙️ 작동환경
 - **Xcode** 16.0
