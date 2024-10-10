@@ -1,0 +1,54 @@
+//
+//  Order.swift
+//  ApplePark
+//
+//  Created by 김종혁 on 10/7/24.
+//
+
+import Foundation
+
+enum DeliveryStatus: String, CaseIterable {
+    case processing = "출고중"
+    case shipped = "출고완료"
+    case inDelivery = "배송중"
+    case delivered = "배송완료"
+}
+
+struct Order: Identifiable, Codable {
+    var id: UUID = UUID()
+    var userID: String
+    var trackingNumber: String
+    var orderDate: Date                // 주문 날짜
+    var nickname: String               // 닉네임
+    var shippingAddress: String        // 배송지
+    var phoneNumber: String            // 전화번호
+    var productName: String            // 상품명
+    var imageURL: String               // 이미지 URL
+    var color: String                  // 색상
+    var itemId: String                // 상품ID
+    
+    var hasAppleCarePlus: Bool         // 애플 케어 플러스 유무
+    var quantity: Int                  // 수량
+    var unitPrice: Int                 // 단가
+    
+    var bankName: String               // 은행명
+    var accountNumber: String          // 계좌번호
+    
+    var isPay: Bool                    // 구매한 상품(True: 구매O, False: 구매X)
+    
+    var deliveryStatus: String
+    
+    
+    // *수량 + 애플 케어가 true라면 기존 가격에서 10% 더함
+    var totalPrice: Int {
+        let total = (quantity * unitPrice) + ((quantity/10) * quantity)
+        return hasAppleCarePlus ? total : (quantity * unitPrice)
+    }
+    
+    // 날짜 Formatter 생성
+    var formattedOrder: String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MM월 dd일 HH시 mm분"
+        return formatter.string(from: orderDate)
+    }
+}
