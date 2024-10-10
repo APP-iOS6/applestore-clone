@@ -47,18 +47,12 @@
 **장바구니 탭**
 - 장바구니에 담은 상품을 확인하고 구매하는 탭
 - 장바구니부터, 주문, 결제까지 하는 탭
-
 <br><br><br>
 
 # Firebase 🔥
 - Authentication
 - Firestore Database
 - 🖇️ https://console.firebase.google.com/project/applestore-clone-f9d07/overview?hl=ko
-
-# 개발자 💻
-| 👑     | 🧑🏻‍💻     | 👩🏻‍💻     |
-|----------|----------|----------|
-| 김수은   | 김종혁   | 김수민   |
 
 # Authentication 👥
 **구글 로그인으로 사용자 관리**
@@ -158,28 +152,31 @@
 # ⚙️ 작동환경
 - **Xcode** 16.0
 - **iOS** 15.0 ~ 18.0
+- 프로젝트를 실행하기 위해서는, GoogleService-info.plist 파일이 필요로 합니다.
+  해당 문의는 PM에게 따로 연락주시길 바랍니다. (j77777y@naver.com)
 <br><br><br>
 
-# 🍏 Team - ApplePark
-## 👑 Parkjoonyoung Manager 👑
+# 🍏 팀 구성
+## 👑 Parkjoonyoung Manager, 박준영 <a href="https://github.com/PlayTheApp"><button>GitHub</button> 👑
+
 ### 📱 consumer 개발팀
 |⭐️신현우⭐️|강승우|구영진|배문성|홍지수|
 |---|---|---|---|---|
-|git|git|git|git|git|
+|<a href="https://github.com/show2633"><button>GitHub</button>|<a href="https://github.com/kangsw1025"><button>GitHub</button>|<a href="https://github.com/skdmlp"><button>GitHub</button>|GitHub|<a href="https://github.com/jisooohh"><button>GitHub</button>|
 
 <br>
 
 ### 📢 admin 개발팀
 |⭐️김정원⭐️|이정민|홍재민|
 |---|---|---|
-|git|git|git|
+|<a href="https://github.com/gadisom"><button>GitHub</button>|<a href="https://github.com/Jeolmi123"><button>GitHub</button>|<a href="https://github.com/IUCyH"><button>GitHub</button>|
 
 <br>
 
 ### 🔥 Firebase 개발팀
 |⭐️김수은⭐️|김종혁|김수민|
 |---|---|---|
-|git|git|git|
+|<a href="https://github.com/sueunal"><button>GitHub</button>|<a href="https://github.com/bbell428"><button>GitHub</button>|<a href="https://github.com/sumchive"><button>GitHub</button>|
 
 <br><br><br>
 
